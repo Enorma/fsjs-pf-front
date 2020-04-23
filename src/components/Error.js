@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Link } from 'react-router-dom';
 
-class Home extends React.Component {
+class Error extends React.Component {
     constructor(props) {
         super(props);
         this.state = {};
@@ -10,12 +10,11 @@ class Home extends React.Component {
     render() {
         return(
             <div>
-                <h1>HOLA SOY HOME</h1>
-                <Link to="/about">ABOUT</Link>
-                <Link to="/shop">SHOP</Link>
+                <h1>HOLA SOY ERROR</h1>
+                <Link to="/">HOME</Link>
             </div>
         );
     }
 }
 
-export default Home;
+export default Error;
